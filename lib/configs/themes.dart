@@ -9,7 +9,7 @@ final appTheme = ThemeData(
   textTheme: TextTheme(
     bodyMedium: TextStyle(
       color: Colors.black,
-      fontSize: 18,
+      fontSize: 16,
       fontWeight: FontWeight.normal, // Use an appropriate FontWeight enum value here
       fontFamily: GoogleFonts.notoSans().fontFamily,
     ),
@@ -78,8 +78,18 @@ final appTheme = ThemeData(
     trackColor: MaterialStateProperty.all<Color>(Colors.grey), // Set the background color when the switch is toggled off
     overlayColor: MaterialStateProperty.all<Color>(Colors.transparent), // Set the color when the switch is being dragged
     // You can customize other properties here
-  )
+  ),
 
-
+  listTileTheme: ListTileThemeData(
+    tileColor: kYellow,
+    textColor: Colors.black,
+    iconColor: Colors.white,
+    shape: RoundedRectangleBorder(
+      borderRadius: BorderRadius.circular(kCircularBorderRadius),
+      side: BorderSide(color: Colors.white,
+      width: 2,
+      )
+      )
+  ),
       
 );

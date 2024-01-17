@@ -10,7 +10,6 @@ import 'package:project/configs/constants.dart';
 import 'package:project/data_sqlite/database_helper.dart';
 import 'package:project/data_sqlite/word_model.dart';
 import 'package:sqflite/sqflite.dart';
-
 class FlashcardsNotifier extends ChangeNotifier {
 
   int roundTally=0, cardTally = 0, correctTally = 0, incorrectTally =0, correctPercentage = 0;

@@ -1,7 +1,7 @@
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
-import './word_model.dart';
+import '../data/word_model.dart';
 
 class DatabaseManager {
   // Singleton
