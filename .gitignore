@@ -1,0 +1,55 @@
+# Flutter/Dart specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-version
+.flutter-plugins.pub-cache/
+.build/
+.packages
+.pub/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.pub-cache/
+
+# Android
+
+/build/
+build/
+/app/build/
+/*.apk
+
+# Gradle files
+.gradle/
+
+# IntelliJ/Android Studio files
+.idea/
+*.iml
+.gradle
+/local.properties
+*.iws
+
+# Compiled Java classes
+/out/
+/classes/
+
+# Miscellaneous
+/.metadata
+.DS_Store
+*.log
+*.class
+*.pyc
+*.swp
+.atom/
+.buildlog/
+.svn/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
