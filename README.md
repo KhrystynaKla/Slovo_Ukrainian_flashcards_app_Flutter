@@ -1,0 +1,1 @@
+# Slovo_Ukrainian_flashcards_app_Flutter
